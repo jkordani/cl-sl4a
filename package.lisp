@@ -8,4 +8,6 @@
 	   #:test-dialog
 	   #:test-getinput
 	   #:target-device
+	   #:target-connect
+	   #:target-close
            ))

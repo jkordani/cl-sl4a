@@ -54,9 +54,9 @@
   (setq *stream* (usocket:socket-stream *socket*)))
 
 (defun target-close ()
-  (when (null *stream*)
-    (error "socket was not open..."))
-  (usocket:socket-close *socket*))
+  (usocket:socket-close *socket*)
+  (setq *host* nil)
+  (setq *port* nil))
 
 ;;(json:set-decoder-simple-clos-semantics)
 (json:set-decoder-simple-list-semantics)
