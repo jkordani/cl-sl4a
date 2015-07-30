@@ -15,7 +15,7 @@
   :name "cl-android"
   :author "Sylvain Ageneau"
   :version "1.0"
-  :maintainer "Sylvain Ageneau"
+  :maintainer "Joshua Kordani"
   :licence "BSD-style"
   :description "SL4A lisp bridge"
   :depends-on (:usocket :cl-json)
